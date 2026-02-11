@@ -2,8 +2,6 @@
 
 **Medimind** is a Flask-based web application designed to provideautonomous medical guidance for astronauts on deep-space missions. Crew members can report symptoms and receive AI-generated medical information in real-time, even in offline or communication blackout scenarios.
 
-> **Disclaimer:** This AI provides **educational content only** and is **not a substitute for professional medical advice**.
-
 ---
 
 ## Features
@@ -24,11 +22,3 @@
   Modern login/signup UI with animated, tech-inspired design.
 
 ---
-
-## Installation
-
-1. **Clone the repository**
-```bash
-git clone <your-repo-url>
-cd medimind
-
