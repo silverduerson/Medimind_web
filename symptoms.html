@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="/static/styles.css">
+    <title>Symptoms</title>
+</head>
+
+<body>
+    <h1>Enter Symptoms</h1>
+
+    <form method="POST">
+        <textarea name="customSymptoms" placeholder="Headache, fever, etc"
+                  style="width:400px; height:100px;"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>
